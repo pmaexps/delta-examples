@@ -1,0 +1,5 @@
+conda env create -f envs/pyspark-340-delta-240.yml
+conda activate pyspark-340-delta-240
+conda install openjdk
+conda install -c conda-forge findspark
+conda install polars
